@@ -1,9 +1,11 @@
+@import url('//fonts.cdnfonts.com/css/billabong');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App-menu {
+  background-color: #993283;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(146, 34, 114));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  z-index: 2;
+  /* animation magic */
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+
+.menu-icons {
+  /* display: flex; */
+}
+
+.menu-icons-search{
+  align: left;
+  width: 60px;
+  height: 60px;
+  background-color: #379932;
 }
